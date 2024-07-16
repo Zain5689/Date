@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="containers">
+      <div class="overlay"></div>
+      <div class="content d-flex flex-column p-5">
+        <h1>مواقيت الصلاة</h1>
+        <div class="btns">
+          <input type="text" placeholder="enter Your City" />
+          <button>Enter</button>
+        </div>
+        <h3 class="city"></h3>
+        <h3 class="data"></h3>
+
+        <ul>
+          <li>الفجر<span id="fajar"></span></li>
+          <li>الشروق<span id="shrouk"></span></li>
+          <li>الضهر<span id="dohar"></span></li>
+          <li>العصر<span id="asar"></span></li>
+          <li>المغرب<span id="marab"></span></li>
+          <li>العشاء<span id="ehaa"></span></li>
+        </ul>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
